@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1515687652280-bf0bb698562a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-size: cover;
+}
+
+/*overlay with reduced opacity and background-color on top of the background image*/
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.80);
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+h1 {
+  color: goldenrod;
+  font-family: 'Phenomicon', sans-serif;
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.8rem;
+  margin: 1rem auto;
+}
+.message-el {
+  font-style: italic;
+}
+
+button {
+  display: block;
+  color: #016f32;
+  width: 14rem;
+  background: goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  margin: 0.5rem auto;
+}
+
+button:active {
+  transform: translateY(3px);
+}
+
+button:hover {
+  box-shadow: 0 0 0.8rem white;
+}
+
+.btn-start{
+  margin-top: 1.8rem;
+}
