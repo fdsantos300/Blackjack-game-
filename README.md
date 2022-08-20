@@ -1,4 +1,4 @@
-# NFT preview card component solution
+# Blackjack Game
 
 
 ## Table of contents
@@ -15,61 +15,86 @@
 
 ## Overview
 
-Basic challenge to improve CSS and Bootstrap knowledge.
+A challenge to improve basic JavaScript and CSS knowledge.
 
 ### Screenshot
 
-![](images/web-desing.jpg)
+![](https://github.com/fdsantos300/Blackjack-game-/blob/main/Screenshot-bj.png)
 
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/nft-card-component-GtBY4E3Ns
+
 - Live Site URL: https://fdsantos300.github.io/NFT-Card/
 
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Bootstrap
+- HTML5
+- CSS Flexbox
+- JavaScript
+- Markdown
 
 ### What I learned
 
-- Set optimal layout depending on device's screen size;
-- Style hover states for interactive elements.
+- JavaScript
+  - Arrays
+  - Objects
+  - Booleans
+  - If else statements
+  - Comparison operators
+  - Logical operators
+  - For loops
+  - The Math object
+  - Return statements
+
+- Style hover states for interactive elements
+- Apply opacity to background image avoiding child inheritance
 
 To see how you can add code snippets, see below:
 
 ```CSS
-.img-container:hover .overlay-img {
-  opacity: 1;
+/*overlay with reduced opacity and background-color on top of the background image*/
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.80);
 }
 ```
-```CSS
-.card-title:hover{
-  cursor: pointer;
-  color: #00fff7;
-}
+```JavaScript
+//Math objects
+function getRandomCard(){
+  let randomNumber = Math.floor(Math.random()*13) + 1
+  if (randomNumber === 1){
+    return 11
+  } else if (randomNumber > 10){
+    return 10
+  } else {
+    return randomNumber
+  }
+ }
 ```
 
 ### Continued development
 
-Still improving my CSS knowledge and already learning Java Script.
+Still improving my JavaScript knowledge. This project will be updated as knew skills learned. I would like to include complete card decks arrays along images to be displayed when game starts.
+
+Help and guidance always welcome 😄.
 
 
 ### Useful resources
 
-- [Bootstrap](https://getbootstrap.com/docs/5.1/components/card/) - Bootstrap cards.
 - [w3schools](https://www.w3schools.com/) - This is an amazing documentation source for HTML, CSS and Java Script.
+- [scrimba](https://scrimba.com/learn/learnjavascript) - Amazing interactive source to learn code.
 
 
 ## Author
 
 - Francisco Gonzalez
-- Frontend Mentor - [@fdsantos300](https://www.frontendmentor.io/profile/yourusername)
 
 ## Acknowledgments
 
