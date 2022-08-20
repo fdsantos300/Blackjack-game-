@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   padding: 0;
@@ -38,7 +40,7 @@ body {
 
 h1 {
   color: goldenrod;
-  font-family: 'Phenomicon', sans-serif;
+  font-family: 'Anton', 'Oswald' sans-serif;
   font-size: 6rem;
   margin-bottom: 0.5rem;
 }
