@@ -25,7 +25,7 @@ A challenge to improve basic JavaScript and CSS knowledge.
 ### Links
 
 
-- Live Site URL: https://fdsantos300.github.io/NFT-Card/
+- Live Site URL: https://fdsantos300.github.io/Blackjack-game-/
 
 
 ### Built with
