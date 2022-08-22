@@ -61,7 +61,7 @@ p {
 button {
   display: block;
   color: #016f32;
-  width: 14rem;
+  width: 25%;
   background: goldenrod;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -85,7 +85,7 @@ button:hover {
   margin-top: 1.8rem;
 }
 
-@media (max-width: 480px){
+@media (max-width: 600px){
   .main {
     background-size: auto;
   }
@@ -106,7 +106,7 @@ button:hover {
 
   button {
 
-    width: 9rem;
+    width: 30%;
     background: goldenrod;
     padding-top: 2.5px;
     padding-bottom: 2.5px;
