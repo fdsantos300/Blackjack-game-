@@ -32,7 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -92,16 +92,18 @@ button:hover {
 
   h1 {
     font-size: 3rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0;
+    margin-top: 0.1rem
   }
 
   h2 {
     font-size: 1rem;
+    margin-top: 0.1rem;
   }
 
   p {
     font-size: 0.9rem;
-    margin: 0.5rem auto;
+    margin: 0.1rem auto;
   }
 
   button {
