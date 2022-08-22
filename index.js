@@ -47,12 +47,12 @@ for ( let i = 0; i < cards.length; i++){
   cardsEL.textContent += cards[i] + " "
 }
   if (sum <= 20) {
-    message = "DO YOU WANT A NEW CARD?"
+    message = "DO YOU WANT A NEW CARD? "
   } else if ( sum === 21){
-    message = "YOU'VE GOT BLACKJACK!"
+    message = "YOU'VE GOT BLACKJACK! "
     hasBlackJack = true
   } else {
-    message = "YOU'RE OUT OF THE GAME!"
+    message = "YOU'RE OUT OF THE GAME! "
     isAlive = false
   }
 messageEl.textContent = message
